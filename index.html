@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Headings -->
+  <title>Product Design Idea Generator</title>
+  <meta name="description" content="Designed for PDD Coursework by Callum Morrison">
+  <meta name="author" content="Callum Morrison">
+
+  <!-- Style and icons -->
+  <link rel="stylesheet" href="css/bulma.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <!-- Centre content on screen -->
+  <style>
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <section class="section">
+    <div class="container">
+
+      <h1 class="title"><i class="fas fa-lightbulb is-size-3 has-text-primary"></i> product idea generator</h1>
+      <h2 class="subtitle">designed for product design and development coursework<br>by callum morrison</h2>
+
+      <!-- Run randomise script -->
+      <button class="button is-rounded is-small is-primary" onclick=randomise()>generate an idea</button>
+
+      <br>
+      <br>
+
+      <p id="category">Category</p>
+      <p id="subcategory">Subcategory</p>
+
+      <!-- Load categories json -->
+      <script type="text/javascript" src="red-dot-categories.json"></script>
+
+      <!-- Load randomise script -->
+      <script type="text/javascript" src="js/randomise.js"></script>
+
+    </div>
+  </section>
+
+</body>
+</html>
