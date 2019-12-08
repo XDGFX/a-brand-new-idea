@@ -29,4 +29,6 @@ ide.innerHTML = ide.innerHTML
 + " and the main material used is <b>" + matName.toLowerCase() + "</b>."
 + "<br><br style=\"line-height:-0.6em\">"
 
+ide.scrollTop = ide.scrollHeight;
+
 }
