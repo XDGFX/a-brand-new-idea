@@ -13,18 +13,21 @@
   <link rel="stylesheet" href="css/bulma.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
-  <!-- Centre content on screen -->
-  <style>
-    section {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-    }
-  </style>
+  <!-- Load data jsons -->
+  <!-- Sources:
+  categories: https://www.red-dot.org/pd/categories/?r=1
+  aesthetics: https://3.7designs.co/blog/2017/12/using-design-adjectives-determine-look-feel/-->
+  <script type="text/javascript" src="js/data.json"></script>
+
+  <!-- Load randomise script -->
+  <script type="text/javascript" src="js/randomise.js"></script>
 
 </head>
 
 <body>
+
+  <div class="page-space" style="height: 30vh">
+  </div>
 
   <section class="section">
     <div class="container">
@@ -38,14 +41,13 @@
       <br>
       <br>
 
-      <p id="category">Category</p>
-      <p id="subcategory">Subcategory</p>
+      <p id="idea"></p>
 
       <!-- Load categories json -->
-      <script type="text/javascript" src="red-dot-categories.json"></script>
+      <!-- Reference: https://www.red-dot.org/pd/categories/?r=1-->
+      <!-- <script type="text/javascript" src="js/db/red-dot-categories.json"></script> -->
 
-      <!-- Load randomise script -->
-      <script type="text/javascript" src="js/randomise.js"></script>
+
 
     </div>
   </section>
