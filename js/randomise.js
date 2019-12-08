@@ -27,6 +27,6 @@ ide.innerHTML = ide.innerHTML
 + "<b>" + costName.toLowerCase() + "</b> cost, "
 + " where the primary user is <b>" + consName.toLowerCase() + "</b>, "
 + " and the main material used is <b>" + matName.toLowerCase() + "</b>."
-+ "<br class=\"is-size-4\">"
++ "<br><br style=\"line-height:-0.6em\">"
 
 }

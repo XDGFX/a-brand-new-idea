@@ -22,6 +22,9 @@
   <!-- Load randomise script -->
   <script type="text/javascript" src="js/randomise.js"></script>
 
+  <!-- Load clear script -->
+  <script type="text/javascript" src="js/clear.js"></script>
+
 </head>
 
 <body>
@@ -35,11 +38,12 @@
       <h1 class="title"><i class="fas fa-lightbulb is-size-3 has-text-primary"></i> product idea generator</h1>
       <h2 class="subtitle">designed for product design and development coursework<br>by callum morrison</h2>
 
-      <!-- Run randomise script -->
-      <button class="button is-rounded is-small is-primary" onclick=randomise()>generate an idea</button>
+      <!-- Buttons -->
+      <div class="buttons has-addons">
+        <button class="button is-rounded is-small is-primary" onclick=randomise()>generate an idea</button>
+        <button class="button is-rounded is-small is-primary is-outlined" onclick=clearIdeas()>clear ideas</button>
+      </div>
 
-      <br>
-      <br>
 
       <p id="idea"></p>
 
