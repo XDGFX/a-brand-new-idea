@@ -10,6 +10,7 @@ subcatName = AvsAn.query(pluralize.singular(subcatName)).article + " <b>" + plur
 
 // Aesthetic
 var aesName = aesthetics[Math.floor(Math.random() * (Object.keys(aesthetics).length))];
+aesName = AvsAn.query(aesName).article + " <b>" + aesName;
 
 // Cost
 var costName = cost[Math.floor(Math.random() * (Object.keys(cost).length))];
@@ -24,7 +25,7 @@ ide = document.getElementById("idea")
 
 ide.innerHTML = ide.innerHTML
 + "design " + subcatName.toLowerCase() + "</b> (" + catName.toLowerCase() + "), "
-+ " with a <b>" + aesName.toLowerCase() + "</b> aesthetic, "
++ " with " + aesName.toLowerCase() + "</b> aesthetic, "
 + "<b>" + costName.toLowerCase() + "</b> cost, "
 + " where the primary user is <b>" + consName.toLowerCase() + "</b>, "
 + " and the main material used is <b>" + matName.toLowerCase() + "</b>."
