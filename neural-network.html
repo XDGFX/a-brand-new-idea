@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Headings -->
+  <title>product idea generator</title>
+  <meta name="description" content="designed for pdd coursework by callum morrison">
+  <meta name="author" content="Callum Morrison">
+
+  <!-- Style and icons -->
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Load data jsons -->
+  <!-- Sources:
+  categories: https://www.red-dot.org/pd/categories/?r=1
+  aesthetics: https://3.7designs.co/blog/2017/12/using-design-adjectives-determine-look-feel/-->
+  <script type="text/javascript" src="js/data-nn.json"></script>
+
+  <!-- Load neural network randomise script -->
+  <script type="text/javascript" src="js/randomise-nn.js"></script>
+
+  <!-- Load clear script -->
+  <script type="text/javascript" src="js/clear.js"></script>
+
+  <!-- Load singularise script -->
+  <script src="js/pluralize.js"></script>
+
+  <!-- Load articles library -->
+  <script src="js/AvsAn.js"></script>
+
+  <!-- Scroll reveal and settings -->
+  <script src="js/scrollreveal@4.0.5.js"></script>
+  <script>
+  ScrollReveal({
+    reset: false,
+    scale: 0.95,
+    duration: 1000
+  });
+  </script>
+
+  <style> html.sr .sr {visibility: hidden}</style>
+
+</head>
+
+<body>
+
+  <section class="section sr" style="display: flex;align-items: center;height: 100vh">
+    <div class="container">
+
+      <h1 class="title reveal"><i class="fas fa-lightbulb is-size-3 has-text-danger"></i> (neural network) product idea generator</h1>
+      <h2 class="subtitle reveal">designed for product design and development coursework<br>by callum morrison</h2>
+
+      <!-- Buttons -->
+      <div class="columns">
+        <div class="column is-narrow reveal">
+        <div class="buttons has-addons">
+          <button class="button is-rounded is-small is-danger" onclick=randomise()>generate an idea</button>
+          <button class="button is-rounded is-small is-danger is-outlined" onclick=clearIdeas()>clear ideas</button>
+        </div>
+      </div>
+      <div class="column is-1 reveal">
+        <a href = "index.html" class="button is-rounded is-small is-light is-outlined is-inverted">original version</a>
+      </div>
+    </div>
+
+      <!-- Ideas textbox -->
+      <div class = "reveal" style="overflow:auto; height:30vh" id="idea"></div>
+
+    </div>
+  </section>
+
+  <script>
+  ScrollReveal().reveal('.reveal', {
+    interval: 80,
+    delay: 100
+  });
+  </script>
+
+</body>
+</html>

@@ -5,8 +5,8 @@
   <meta charset="utf-8">
 
   <!-- Headings -->
-  <title>Product Design Idea Generator</title>
-  <meta name="description" content="Designed for PDD Coursework by Callum Morrison">
+  <title>product idea generator</title>
+  <meta name="description" content="designed for pdd coursework by callum morrison">
   <meta name="author" content="Callum Morrison">
 
   <!-- Style and icons -->
@@ -33,28 +33,54 @@
   <!-- Load articles library -->
   <script src="js/AvsAn.js"></script>
 
+  <!-- Scroll reveal and settings -->
+  <script src="js/scrollreveal@4.0.5.js"></script>
+  <script>
+  ScrollReveal({
+    reset: false,
+    scale: 0.95,
+    duration: 1000
+  });
+  </script>
+
+  <style> html.sr .sr {visibility: hidden}</style>
+
 
 </head>
 
 <body>
 
-  <section class="section" style="display: flex;align-items: center;height: 100vh">
+  <section class="section sr" style="display: flex;align-items: center;height: 100vh">
     <div class="container">
 
-      <h1 class="title"><i class="fas fa-lightbulb is-size-3 has-text-primary"></i> product idea generator</h1>
-      <h2 class="subtitle">designed for product design and development coursework<br>by callum morrison</h2>
+      <h1 class="title reveal"><i class="fas fa-lightbulb is-size-3 has-text-primary"></i> product idea generator</h1>
+      <h2 class="subtitle reveal">designed for product design and development coursework<br>by callum morrison</h2>
 
       <!-- Buttons -->
-      <div class="buttons has-addons">
-        <button class="button is-rounded is-small is-primary" onclick=randomise()>generate an idea</button>
-        <button class="button is-rounded is-small is-primary is-outlined" onclick=clearIdeas()>clear ideas</button>
+      <div class="columns">
+        <div class="column is-narrow reveal">
+          <div class="buttons has-addons">
+            <button class="button is-rounded is-small is-primary" onclick=randomise()>generate an idea</button>
+            <button class="button is-rounded is-small is-primary is-outlined" onclick=clearIdeas()>clear ideas</button>
+          </div>
+        </div>
+        <div class="column is-1 reveal">
+          <a href = "neural-network.html" class="button is-rounded is-small is-light is-outlined is-inverted">neural network version</a>
+        </div>
       </div>
 
       <!-- Ideas textbox -->
-      <div style="overflow:auto; height:30vh" id="idea"></div>
+      <div class = "reveal" style="overflow:auto; height:30vh" id="idea"></div>
 
     </div>
   </section>
+
+  <script>
+  ScrollReveal().reveal('.reveal', {
+    interval: 80,
+    delay: 100
+  });
+  </script>
 
 </body>
 </html>
