@@ -1,0 +1,103 @@
+info
+
+epoch 	train_loss 	valid_loss 	accuracy 	time
+0 	0.722695 	0.686566 	0.822768 	02:36
+1 	0.668850 	0.645814 	0.827009 	02:55
+2 	0.634020 	0.631049 	0.832812 	02:57
+3 	0.625086 	0.611097 	0.834821 	02:49
+4 	0.608237 	0.604424 	0.837835 	02:49
+5 	0.593921 	0.603824 	0.836161 	02:50
+6 	0.579253 	0.601163 	0.836607 	02:47
+7 	0.570768 	0.598912 	0.834710 	02:49
+8 	0.565784 	0.601227 	0.834375 	02:55
+9 	0.557509 	0.598746 	0.835826 	02:57
+10 	0.550486 	0.607006 	0.835603 	02:54
+11 	0.548222 	0.600469 	0.838058 	02:54
+12 	0.540142 	0.611133 	0.834598 	02:52
+13 	0.531788 	0.615024 	0.836607 	02:55
+14 	0.524361 	0.613626 	0.835491 	02:52
+
+['',
+ ' xxfld 1 glass ( materials and surfaces ) with a complicated aesthetic budget cost where the primary user is a technophobe and the main material used is tripod . ',
+ ' design a tv ( tv and home entertainment ) with a unique aesthetic mid - range cost where the primary user is elderly and the main material used is metals . ',
+ ' design a sunglass ( glasses ) with a dark aesthetic high - end cost where the primary user is scared of change and the main material used is silicon . ',
+ ' design a classic aesthetic high - end cost where the primary user is excited by new technology and the main material used is leather . ',
+ ' design a vr camera ( cameras and camera equipment ) with an unusual aesthetic mid - range cost where the primary user is a teenager and the main material used is leather . ',
+ ' design a frying pan set ( cookware and cooking utensils ) with a casual aesthetic mid - range cost where the primary user is excited by new technology and the main material used is polycarbonate . ',
+ ' design a dry bag ( luggage and bags ) with a casual aesthetic high - end cost where the primary user is a carer and the main material used is polystyrene . ',
+ ' design a bathroom accessory ( bathroom and sanitary equipment ) with a simple aesthetic high - end cost where the primary user is a carer and the main material used is glass . ',
+ ' design a smartwatch ( mobile phones tablets and wearables ) with a dark aesthetic budget cost where the primary user is a devices and the main material used is aluminium . ',
+ ' design a single lever mixer ( bathroom taps and shower heads ) with a formal aesthetic budget cost where the primary user is an apple fan and the main material used is polycarbonate . ',
+ ' design a hi - fi system ( audio ) with a trendy aesthetic mid - range cost where the primary user is a fisherman and the main material used is acryllic . ',
+ ' design a fan ( household appliances and household accessories ) with a classic aesthetic mid - range cost where the primary user is religious and the main material used is steel . ',
+ ' design a sound system ( audio ) with a fun aesthetic budget cost where the primary user is a technophile and the main material used is polypropylene . ',
+ ' design a mobile kitchen ( kitchens and kitchen furniture ) with a popular aesthetic high - end cost where the primary user is a teenager and the main material used is aluminium . ',
+ ' design an eat - in kitchen ( kitchens and kitchen furniture ) with an exciting aesthetic high - end cost where the primary user is a teenager and the main material used is paper . ',
+ ' design a charging station ( communication technology ) with a simple aesthetic high']
+ ['',
+ ' xxfld 1 bathroom furniture ( bathroom and sanitary equipment ) with a old aesthetic budget cost where the primary user is a technophobe and the main material used is pvc . ',
+ ' design an accessory ( mobile phones tablets and wearables ) with a complicated aesthetic budget cost where the primary user is a technophile and the main material used is pvc . ',
+ ' design a shopfitting ( interior architecture and interior design ) with an old aesthetic mid - range cost where the primary user is a technophile and the main material used is silicon . ',
+ ' design a clockwork ( watches ) with a conservative aesthetic budget cost where the primary user is a father and the main material used is glass . ',
+ ' design a headphone ( audio ) with an exciting aesthetic mid - range cost where the primary user is of above - average intelligence and the main material used is leather . ',
+ ' design a diy drone ( drones and action cameras ) with a conservative aesthetic mid - range cost where the primary user is an engineer and the main material used is polystyrene . ',
+ ' design a novelty goods and gift ( hobby and leisure ) with a familiar aesthetic mid - range cost where the primary user is of below - average intelligence and the main material used is polycarbonate . ',
+ ' design a children ’s clothing ( fashion and lifestyle accessories ) with an exciting aesthetic budget cost where the primary user is excited by new technology and the main material used is precious metals . ',
+ ' design an fpv drone ( drones and action cameras ) with an exciting aesthetic high - end cost where the primary user is a technophobe and the main material used is steel . ',
+ ' design a construction vehicle ( commercial vehicles ) with a laid back aesthetic high - end cost where the primary user is a sports fan and the main material used is textile . ',
+ ' design a mobile home ( motorhomes and caravans ) with an orderly aesthetic mid - range cost where the primary user is a teenager and the main material used is precious metals . ',
+ ' design a bicycle pump ( bicycles and bicycle accessories ) with a colourful aesthetic high - end cost where the primary user is a mechanic and the main material used is pvc . ',
+ ' design a baby bottle ( babies and children ) with a clean aesthetic high - end cost where the primary user is a carer and the main material used is acryllic . ',
+ ' design a wedding ring ( jewellery ) with a classy aesthetic high - end cost where the primary user is an engineer and the main material used is glass . ',
+ ' design a kitchen aid ( cookware and cooking utensils ) with a skeumorphic aesthetic budget cost where the primary user is a mechanic and the main material used is polystyrene . ',
+ ' design a motorship']
+ ['',
+ ' xxfld 1 and wall clock ( watches ) with a dramatic aesthetic budget cost where the primary user is a carer and the main material used is aluminium . ',
+ ' design a belt ( fashion and lifestyle accessories ) with a clean aesthetic budget cost where the primary user is a businessperson and the main material used is polystyrene . ',
+ ' design a single lever mixer ( kitchen taps and sinks ) with a classy aesthetic budget cost where the primary user is an apple fan and the main material used is paper . ',
+ ' design a twin - lever tap ( bathroom taps and shower heads ) with a skeumorphic aesthetic high - end cost where the primary user is a mechanic and the main material used is polycarbonate . ',
+ ' design a cine camera ( cameras and camera equipment ) with an orderly aesthetic mid - range cost where the primary user is a technophobe and the main material used is abs . ',
+ ' design a car styling ( vehicle accessories ) with a fun aesthetic mid - range cost where the primary user is a tradesperson and the main material used is wood . ',
+ ' design a saucepan set ( cookware and cooking utensils ) with a warm aesthetic mid - range cost where the primary user is excited by new technology and the main material used is precious metals . ',
+ ' design a basin mixer ( bathroom taps and shower heads ) with a serious aesthetic mid - range cost where the primary user is a teenager and the main material used is paper . ',
+ ' design a diy drone ( drones and action cameras ) with a skeumorphic aesthetic mid - range cost where the primary user is a technophobe and the main material used is wood . ',
+ ' design a smoke oven ( garden appliances garden tools and garden equipment ) with an exciting aesthetic mid - range cost where the primary user is a mechanic and the main material used is glass . ',
+ ' design a microphone ( communication technology ) with a casual aesthetic high - end cost where the primary user is a carer and the main material used is concrete . ',
+ ' design a mobile hard drive ( computer and information technology ) with a serious aesthetic mid - range cost where the primary user is an engineer and the main material used is carbon fibre . ',
+ ' design a garden and outdoor furniture ( garden furniture ) with a simple aesthetic budget cost where the primary user is retired and the main material used is polypropylene . ',
+ ' design a medical robot ( robotics ) with a complicated aesthetic budget cost where the primary user is a teenager and the main material used is polypropylene . ',
+ ' design a cufflink ( jewellery ) with a conservative aesthetic budget cost where the primary user is a father and the main material used is acryllic . ',
+ ' design a chair ( home and']
+ ['',
+ ' xxfld 1 ( kitchen appliances and kitchen accessories ) with a solitary aesthetic mid - range cost where the primary user is a carer and the main material used is polystyrene . ',
+ ' design a hybrid vehicle ( cars and motorcycles ) with a clean aesthetic mid - range cost where the primary user is a mechanic and the main material used is glass . ',
+ ' design a functional clothing ( sports equipment ) with a clean aesthetic budget cost where the primary user is a tradesperson and the main material used is leather . ',
+ ' design an industrial kitchen ( kitchens and kitchen furniture ) with a popular aesthetic mid - range cost where the primary user is a mother and the main material used is abs . ',
+ ' design an aroma diffuser ( household appliances and household accessories ) with an orderly aesthetic high - end cost where the primary user is a tradesperson and the main material used is glass . ',
+ ' design a cross and trekking bike ( bicycles and bicycle accessories ) with a unique aesthetic mid - range cost where the primary user is a mechanic and the main material used is polypropylene . ',
+ ' design a medical robot ( robotics ) with a unique aesthetic mid - range cost where the primary user is an apple fan and the main material used is ceramic . ',
+ ' design a sunglass ( glasses ) with a warm aesthetic budget cost where the primary user is a child and the main material used is leather . ',
+ ' design a smartwatch ( mobile phones tablets and wearables ) with a dark aesthetic high - end cost where the primary user is a businessperson and the main material used is carbon fibre . ',
+ ' design an audio accessory ( audio ) with a clean aesthetic high - end cost where the primary user is a tradesperson and the main material used is textile . ',
+ ' design a tool accessory ( tools ) with a serious aesthetic high - end cost where the primary user is a tradesperson and the main material used is aluminium . ',
+ ' design a decorations and accessory ( home and seating furniture ) with a warm aesthetic mid - range cost where the primary user is a father and the main material used is steel . ',
+ ' design a table lamp ( lighting and lamps ) with a bright aesthetic mid - range cost where the primary user is a tradesperson and the main material used is paper . ',
+ ' design a cultural and public institution ( interior architecture and interior design ) with a simple aesthetic high - end cost where the primary user is religious and the main material used is precious metals . ',
+ ' design a kitchen element ( kitchens and kitchen furniture ) with a popular aesthetic high - end cost where the primary user is a tradesperson and the main material used is paper . ',
+ ' design a tool box (']
+ ['',
+ ' xxfld 1 cinema ( interior architecture and interior design ) with an orderly aesthetic budget cost where the primary user is a fisherman and the main material used is polypropylene . ',
+ ' design a bridal fashion ( fashion and lifestyle accessories ) with a laid back aesthetic budget cost where the primary user is a carer and the main material used is carbon fibre . ',
+ ' design a prescription glass ( glasses ) with a cold aesthetic high - end cost where the primary user is a technophobe and the main material used is ceramic . ',
+ ' design a bus ( commercial vehicles ) with a colourful aesthetic mid - range cost where the primary user is a tradesperson and the main material used is glass . ',
+ ' design a steam cooker ( kitchen appliances and kitchen accessories ) with a dramatic aesthetic mid - range cost where the primary user is a technophile and the main material used is pvc . ',
+ ' design a cloakroom ( office furniture and office chairs ) with a casual aesthetic mid - range cost where the primary user is a teenager and the main material used is polystyrene . ',
+ ' design an office organisation ( office supplies and stationery ) with a familiar aesthetic mid - range cost where the primary user is an apple fan and the main material used is pvc . ',
+ ' design a cleaning accessory ( household appliances and household accessories ) with an energetic aesthetic mid - range cost where the primary user is a father and the main material used is polycarbonate . ',
+ ' design a scarf ( fashion and lifestyle accessories ) with a young aesthetic high - end cost where the primary user is someone living with dementia and the main material used is rubber . ',
+ ' design an office equipment ( office furniture and office chairs ) with a conservative aesthetic mid - range cost where the primary user is a mother and the main material used is abs . ',
+ ' design a kitchen machine ( kitchen appliances and kitchen accessories ) with a colourful aesthetic budget cost where the primary user is of below - average intelligence and the main material used is steel . ',
+ ' design an electric scooter ( bicycles and bicycle accessories ) with a cold aesthetic high - end cost where the primary user is a carer and the main material used is abs . ',
+ ' design a box ( tools ) with a colourful aesthetic budget cost where the primary user is an engineer and the main material used is glass . ',
+ ' design a ventilation system ( heating and air conditioning technology ) with a classy aesthetic high - end cost where the primary user is excited by new technology and the main material used is acryllic . ',
+ ' design a patio and balcony furniture ( garden furniture ) with a skeumorphic aesthetic high - end cost where the primary user is a child and the main material used']

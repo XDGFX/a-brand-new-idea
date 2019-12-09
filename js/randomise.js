@@ -1,5 +1,9 @@
 function randomise() {
 
+  var i
+
+  for (i = 0; i < 1000; i++) {
+
 // Category
 var catNumber = Math.floor(Math.random() * (Object.keys(categories[0]).length));
 var catName = Object.keys(categories[0])[catNumber];
@@ -33,4 +37,5 @@ ide.innerHTML = ide.innerHTML
 
 ide.scrollTop = ide.scrollHeight;
 
+}
 }
