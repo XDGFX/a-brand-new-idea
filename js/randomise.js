@@ -6,6 +6,7 @@ var catName = Object.keys(categories[0])[catNumber];
 
 // Subcatagory
 var subcatName = categories[0][catName][Math.floor(Math.random() * (Object.keys(categories[0][catName]).length))];
+subcatName = AvsAn.query(pluralize.singular(subcatName)).article + " <b>" + pluralize.singular(subcatName);
 
 // Aesthetic
 var aesName = aesthetics[Math.floor(Math.random() * (Object.keys(aesthetics).length))];
@@ -22,7 +23,7 @@ var matName = material[Math.floor(Math.random() * (Object.keys(material).length)
 ide = document.getElementById("idea")
 
 ide.innerHTML = ide.innerHTML
-+ "design <b>" + subcatName.toLowerCase() + "</b> (" + catName.toLowerCase() + "), "
++ "design " + subcatName.toLowerCase() + "</b> (" + catName.toLowerCase() + "), "
 + " with a <b>" + aesName.toLowerCase() + "</b> aesthetic, "
 + "<b>" + costName.toLowerCase() + "</b> cost, "
 + " where the primary user is <b>" + consName.toLowerCase() + "</b>, "
