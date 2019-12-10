@@ -1,4 +1,4 @@
-ORIGINAL
+ORIGINAL (8661)
 
 removed all duplicates
 removed all patents of less than 15 characters
@@ -24,7 +24,7 @@ epoch 	train_loss 	valid_loss 	accuracy 	time
 14 	4.122730 	4.512559 	0.332143 	01:20
 
 
-EXTENDED
+EXTENDED (64649)
 
 removed all duplicates
 removed all patents of less than 15 characters
@@ -40,3 +40,28 @@ epoch 	train_loss 	valid_loss 	accuracy 	time
 
 epoch 	train_loss 	valid_loss 	accuracy 	time
 0 	4.975592 	4.933951 	0.267232 	11:13
+
+
+EXTENDED 40 (31687)
+
+removed all duplicates
+removed all patents of less than 15 characters
+removed all patents of more than 40 characters
+removed any line containing non alpha characters
+
+epoch 	train_loss 	valid_loss 	accuracy 	time
+0 	5.220549 	5.067709 	0.282254 	03:44
+1 	5.074685 	4.979054 	0.285045 	03:44
+2 	4.938612 	4.920932 	0.290067 	03:43
+3 	4.805503 	4.879516 	0.292299 	03:54
+4 	4.675024 	4.869472 	0.292969 	03:44
+5 	4.533024 	4.867552 	0.297321 	03:43
+6 	4.392333 	4.865705 	0.293080 	03:43
+7 	4.249049 	4.908504 	0.293415 	03:40
+8 	4.112404 	4.929600 	0.294531 	03:44
+9 	4.002357 	4.955546 	0.295201 	04:05
+10 	3.868189 	4.973284 	0.292746 	04:26
+11 	3.738917 	5.032927 	0.292634 	04:19
+12 	3.616136 	5.078687 	0.289509 	04:16
+13 	3.505445 	5.077491 	0.286942 	04:12
+14 	3.402733 	5.126387 	0.288728 	04:04
