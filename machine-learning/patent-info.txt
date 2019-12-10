@@ -31,3 +31,12 @@ removed all patents of less than 15 characters
 removed all patents of more than 60 characters
 removed any line containing non alpha characters
 removed all patents contiaining 'method'
+
+epoch 	train_loss 	valid_loss 	accuracy 	time
+0 	6.020906 	5.426728 	0.233705 	06:10
+
+epoch 	train_loss 	valid_loss 	accuracy 	time
+0 	5.193276 	5.072429 	0.260848 	10:58
+
+epoch 	train_loss 	valid_loss 	accuracy 	time
+0 	4.975592 	4.933951 	0.267232 	11:13
