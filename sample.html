@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -36,19 +37,23 @@
   <!-- Scroll reveal and settings -->
   <script src="js/scrollreveal@4.0.5.js"></script>
   <script>
-  ScrollReveal({
-    reset: false,
-    scale: 0.95,
-    duration: 1000
-  });
+    ScrollReveal({
+      reset: false,
+      scale: 0.95,
+      duration: 1000
+    });
   </script>
 
   <!-- Little correction for scroll reveal fade -->
-  <style> html.sr .sr {visibility: hidden}</style>
+  <style>
+    html.sr .sr {
+      visibility: hidden
+    }
+  </style>
 
   <!-- Google AdSense -->
-  <script data-ad-client="ca-pub-2845131833000200" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+  <script data-ad-client="ca-pub-2845131833000200" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
@@ -73,26 +78,27 @@
       </div>
 
       <!-- Ideas textbox -->
-      <div class = "reveal" style="overflow:auto; height:30vh" id="idea"></div>
+      <div class="reveal" style="overflow:auto; height:30vh" id="idea"></div>
 
     </div>
   </section>
 
   <script>
-  
+
     var i;
-    for (i = 0; i < 1000; i++) {
+    for (i = 0; i < 200; i++) {
       randomise();
     }
-  
+
   </script>
 
   <script>
-  ScrollReveal().reveal('.reveal', {
-    interval: 80,
-    delay: 100
-  });
+    ScrollReveal().reveal('.reveal', {
+      interval: 80,
+      delay: 100
+    });
   </script>
 
 </body>
+
 </html>
